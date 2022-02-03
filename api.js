@@ -29,6 +29,7 @@ function setButtonFunctions()
     };
 }
 
+//covid data
 async function getLatestCOVID19Data()
 {
     await fetch("https://covid-193.p.rapidapi.com/statistics", {
