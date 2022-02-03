@@ -1,7 +1,11 @@
 # IDAssignment2
 ID Assignment 2 with Daryl
 Your Project's Name
+COVID-19 Pastaway
+
 One or two paragraphs providing an overview of your project. Tell us about your project.
+
+Our project is about teaching people about COVID-19. Since COVID-19 has been around for 2 years, the rules that we have to follow have also been constantly changing, so we decided that we will do a game/quiz relating to COVID-19 to teach people what we should do during these times(such as maintaining a 1M spacing between one another) and what we should not do(such as removing our mask when we are not eating/drinking). This will also help those who do not follow the news that much, as it will show them what rules have changed(number of people that can go out) and also educate them on what to do.
 
 Essentially, this part is your sales pitch.
 
@@ -12,6 +16,8 @@ In particular, as part of this section we recommend that you provide a list of U
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+
+Our process when it comes to designing this website is firstly, how would we as users enjoy look of the website and secondly how simple it is to navigate around it. At the start, we had issues trying to figure out how we wanted to design our website as the two of us had different ideas on what we should do, but we decided to research and watch videos for inspiration. The website focuses on anyone who needs help to know more about COVID-19 and the things we should and should not do. We want to make sure that anyone that uses this website learns more about COVID-19 and the different restrictions that constantly change so that they will obey them. Our website does not take up that much time for people to educate themselves about the restrictions and it is also fun and simple to use.
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
