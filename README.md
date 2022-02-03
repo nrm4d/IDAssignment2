@@ -33,10 +33,10 @@ CSS https://developer.mozilla.org/en-US/docs/Web/CSS We used CSS so that we were
 
 JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript We had to use JavaScript for our API and input validation for our contact form.
 
-Credits
-Content
+# Credits
+# Content
 The text for section Y was copied from the Wikipedia article Z
-Media
+# Media
 The photos used in this site were obtained from ...
-Acknowledgements
+# Acknowledgements
 I received inspiration for this project from X
