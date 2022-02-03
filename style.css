@@ -10,6 +10,8 @@
 body {
   min-height: 100vh;
   background: linear-gradient(#89CFF0, #7393B3);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 header{
@@ -63,6 +65,10 @@ header ul li a:hover{
     width: 40%;
     min-width: 500px;
     height: 20%;
+}
+.marginTopBottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* styling for covid */
 .covidInput {
