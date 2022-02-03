@@ -60,11 +60,12 @@ header ul li a:hover{
 .APIContainer {
     margin: 50px auto 150px auto;
     padding: 10px 20px 10px 20px;
-    border: 1px solid darkgray;
+    border: 1px solid black;
     border-radius: 5px;
     width: 40%;
     min-width: 500px;
     height: 20%;
+    background: lavender;
 }
 .marginTopBottom {
     margin-top: 10px;
@@ -84,6 +85,6 @@ header ul li a:hover{
 
 .mySeparator {
     height: 0.5px;
-    width: 80%;
-    background-color: whitesmoke;
+    width: 100%;
+    background-color: black;
 }
