@@ -35,6 +35,7 @@ CSS https://developer.mozilla.org/en-US/docs/Web/CSS We used CSS so that we were
 JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript We had to use JavaScript for our API and input validation for our contact form.
 
 # Credits
+Thanks Mrs Ong for guiding us through this project, www.w3schools.com whenever we had issues understanding, www.youtube.com for whenver we could not visualize the concepts that are being taught and fontawesome for the cool icons
 # Content
 The text for section Y was copied from the Wikipedia article Z
 # Media
