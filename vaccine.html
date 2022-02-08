@@ -29,23 +29,17 @@
 
       
     <div class="display-4 text-center">Check When You're Eligible For Your Next Dose!</div>
-    <div class="APIContainer">
+    <div class="vaccineContainer">
       <div class="covidInput">
-        <p>Select the date of your latest vaccination:</p>
-        <select class="form-control" id="countries">
+        <form>
+             Select your latest vaccination date: <input type="date" name="date">
+        </form>
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237986CB&ctz=Asia%2FSingapore&showPrint=1&showTabs=1&src=ZWpmNjc2ZHMwcTF0YmcyNDlwMGkwa2ZiODhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB"
-             style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-          <option>Select the date</option>
+             title = "Calandar" style="border:solid 1px #777" width="1000" height="400" frameborder="0" scrolling="no"></iframe>
         </select>
       </div>
-      <hr class="mySeparator">
-      <div class="text-center">
-        <p class="marginTopBottom" id="covidNewConfirmed">New confirmed cases: /</p>
-        <p class="marginTopBottom" id="covidTotalConfirmed">Total confirmed cases: /</p>
-        <p class="marginTopBottom" id="covidNewDeaths">New deaths: /</p>
-        <p class="marginTopBottom" id="covidTotalDeaths">Total deaths: /</p>
-        <p class="marginTopBottom" id="covidLastUpdate">Last updated: /</p>
-      </div>
+     <!-- <hr class="mySeparator">-->
+
     </div>
 
     <script src="./js/main.js" type="module"></script>

@@ -98,3 +98,15 @@ header ul li a:hover{
  small{
      position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;
     }
+
+/*styling for vaccination tracker*/
+.vaccineContainer{
+    margin: 50px auto 150px auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+    min-width: 500px;
+    height: 30%;
+    background: lavender;
+}
