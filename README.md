@@ -29,6 +29,7 @@ Gamifying the website
 For the website, we used HTML, CSS Bootstrap and JavaScript.
 
 HTML https://developer.mozilla.org/en-US/docs/Web/HTML We used HTML because we were familiar with using it as we used to make our personal portfolio from scratch using HTML. 
+
 CSS https://developer.mozilla.org/en-US/docs/Web/CSS We used CSS so that we were able to style our website to our specific needs.
 
 JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript We had to use JavaScript for our API and input validation for our contact form.
