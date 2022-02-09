@@ -110,3 +110,15 @@ header ul li a:hover{
     height: 30%;
     background: lavender;
 }
+
+/*Styling for Home*/
+h1{
+    text-align: center;
+}
+.flex-container{
+    background-color: #C8A2C8;
+    max-width: 600px;
+    max-height: 300px;
+    position: relative;
+    left: 100px;
+}
