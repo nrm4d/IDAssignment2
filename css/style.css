@@ -325,11 +325,11 @@ div#form {
     position: relative;
     width: 50%;
     height: 725px;
-    background-color: #C8A2C8;
+    background-color: lavender;
     clear: both;
     border-radius: 25px;
     border: 4px dotted rgb(0, 0, 167);
-    left: 600px;
+    left: 370px;
     top: 10px;
 }
 fieldset {
