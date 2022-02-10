@@ -23,7 +23,7 @@
     align-items: center;
 }
 .disappear{
-    animation: fadeout 10s forwards;
+    animation: fadeout 5s forwards;
 }
 @keyframes fadeout {
     100%{
@@ -56,7 +56,7 @@ html::-webkit-scrollbar-thumb{
 
 
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -123,6 +123,45 @@ header ul li a:hover{
     background: #191970; /*sets background colour*/
     box-shadow: 0 0 5px whitesmoke, 0 0 20px #191970, 0 0 40px #191970;
   }
+
+  section{
+    min-height: 100vh;
+    padding: 0 7%;
+
+
+}
+
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.about .image{
+    flex:1 1 40rem;
+}
+
+.about .image img{
+    width:50%;
+}
+
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h3{
+    color:#666;
+    font-size: 5rem;
+}
+
+.about .content p{
+    color:#999;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
 
 .APIContainer {
     margin: 50px auto 150px auto;
