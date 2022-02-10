@@ -1,22 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
-  font-family: "Roboto", sans-serif;
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition:all .3s cubic-bezier(.16,.8,.62,1.52);
+    text-transform: capitalize;
 }
 
 body {
   min-height: 100vh;
-  background: linear-gradient(#89CFF0, #7393B3);
+  background: whitesmoke;
   margin-top: 100px;
   margin-bottom: 100px;
   overflow-x: hidden;
 }
 
+html::-webkit-scrollbar{
+    width:1.3rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: whitesmoke
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #191970
+}
+
+
+
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -27,9 +46,8 @@ header{
 }
 
 header .logo{
-    color: #ffffff;
+    color: #191970;
     font-weight: 700;
-    text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -47,16 +65,38 @@ header ul li {
 }
 
 header ul li a{
+    display: inline-block;
+    transition: all 0.2s;
+    overflow: hidden;
     text-decoration: none;
     padding: 6px 15px;
-    color: #ffffff;
+    color: #191970;
     border-radius: 20px;
 }
 
 header ul li a:hover{
-    background: #ffffff;
-    color: black;
+    background: whitesmoke; /*sets background colour*/
+    box-shadow: 0 0 5px #191970, 0 0 20px #191970, 0 0 40px #191970;
 }
+.home .content h1{
+    color:#666;
+    font-size: 5rem;
+}
+.home span {
+    position: relative;
+    display: inline-block;
+    background: #191970; /*sets the background of this element (here a solid colour)*/
+    transition: all 0.2s; /*sets a transition (for hover effect)*/
+    padding: 30px 20px;
+    margin-bottom: -3.5%;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .home span:hover {
+    background: #191970; /*sets background colour*/
+    box-shadow: 0 0 5px whitesmoke, 0 0 20px #191970, 0 0 40px #191970;
+  }
 
 .APIContainer {
     margin: 50px auto 150px auto;
