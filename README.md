@@ -35,6 +35,7 @@ JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript/ We had to us
 
 # Credits
 Thanks Mrs Ong for guiding us through this project, 
+Muhammad for his hover button code based on assignment 1,
 www.w3schools.com/ whenever we had issues understanding some javascript code and how to imlement it, 
 www.youtube.com/ for whenver we could not visualize the concepts that are being taught, 
 https://fontawesome.com/ for the cool icons
