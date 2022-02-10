@@ -241,6 +241,26 @@ header ul li a:hover{
     padding: .5rem 0;
 }
 
+.about .learnbtn span {
+    position: relative;
+    display: inline-block;
+    justify-content: left;
+    background: #cf1a1a; /*sets the background of this element (here a solid colour)*/
+    transition: all 0.2s; /*sets a transition (for hover effect)*/
+    padding: 30px ;
+
+    right: 100%;
+
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .about .learnbtn span:hover {
+    background: #cf1a1a; /*sets background colour*/
+    box-shadow: 0 0 5px whitesmoke, 0 0 20px #cf1a1a, 0 0 40px #cf1a1a;
+  }
+
+
 .APIContainer {
     margin: 50px auto 150px auto;
     padding: 10px 20px 10px 20px;
