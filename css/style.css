@@ -199,6 +199,47 @@ header ul li a:hover{
     list-style: none;
 }
 
+.about .content3{
+    flex:1 1 40rem;
+}
+
+.about .image3{
+    flex:1 1 40rem;
+}
+
+.about .image3 img{
+    width:80%;
+}
+
+
+.about .content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .content3 p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:1rem 0;
+}
+
+.about .content3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .content3 ul .two{
+    padding-left: 4.5rem;
+}
+
+.about .content3 ul li{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color:#666;
+    padding: .5rem 0;
+}
 
 .APIContainer {
     margin: 50px auto 150px auto;
