@@ -8,9 +8,30 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    transition:all .3s cubic-bezier(.16,.8,.62,1.52);
     text-transform: capitalize;
 }
+
+ .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disappear{
+    animation: fadeout 50s forwards;
+}
+@keyframes fadeout {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+} 
 
 body {
   min-height: 100vh;
@@ -87,6 +108,7 @@ header ul li a:hover{
 .home span {
     position: relative;
     display: inline-block;
+    justify-content: center;
     background: #191970; /*sets the background of this element (here a solid colour)*/
     transition: all 0.2s; /*sets a transition (for hover effect)*/
     padding: 30px 20px;
