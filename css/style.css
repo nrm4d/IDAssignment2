@@ -170,6 +170,36 @@ header ul li a:hover{
 }
 
 
+.about .image2{
+    flex:1 1 40rem;
+}
+
+.about .image2 img{
+    width:70%;
+}
+
+.about .content2{
+    flex:1 1 40rem;
+}
+.about strong{
+    color: red;
+}
+
+
+
+.about .content2 h3{
+    color:#666;
+    font-size: 44px;
+}
+
+.about .content2 li{
+    color:#999;
+    font-size: 28px;
+    padding:1rem 0;
+    list-style: none;
+}
+
+
 .APIContainer {
     margin: 50px auto 150px auto;
     padding: 10px 20px 10px 20px;
@@ -227,11 +257,4 @@ header ul li a:hover{
 /*Styling for Home*/
 h1{
     text-align: center;
-}
-.flex-container{
-    background-color: #C8A2C8;
-    max-width: 650px;
-    max-height: 600px;
-    position: relative;
-    left: 100px;
 }
