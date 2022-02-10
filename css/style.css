@@ -245,7 +245,7 @@ header ul li a:hover{
     position: relative;
     display: inline-block;
     justify-content: left;
-    background: #cf1a1a; /*sets the background of this element (here a solid colour)*/
+    background: #191970; /*sets the background of this element (here a solid colour)*/
     transition: all 0.2s; /*sets a transition (for hover effect)*/
     padding: 30px ;
 
@@ -256,8 +256,8 @@ header ul li a:hover{
     overflow: hidden;
   }
   .about .learnbtn span:hover {
-    background: #cf1a1a; /*sets background colour*/
-    box-shadow: 0 0 5px whitesmoke, 0 0 20px #cf1a1a, 0 0 40px #cf1a1a;
+    background: #191970; /*sets background colour*/
+    box-shadow: 0 0 5px whitesmoke, 0 0 20px #191970, 0 0 40px #191970;
   }
 
 
