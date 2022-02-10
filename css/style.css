@@ -15,7 +15,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: lightgray;
+    background-color: rgb(94, 94, 94);
     height: 100%;
     width: 100%;
     display: flex;
@@ -23,7 +23,7 @@
     align-items: center;
 }
 .disappear{
-    animation: fadeout 50s forwards;
+    animation: fadeout 10s forwards;
 }
 @keyframes fadeout {
     100%{
