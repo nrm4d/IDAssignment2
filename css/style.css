@@ -314,6 +314,12 @@ header ul li a:hover{
     height: 30%;
     background: lavender;
 }
+.vtitle{
+    position: relative;
+    font-size: 30px;
+    left: 420px;
+    top: 35px;
+}
 
 /*Styling for Home*/
 h1{
@@ -324,11 +330,11 @@ h1{
 div#form {
     position: relative;
     width: 50%;
-    height: 725px;
+    height: 600px;
     background-color: lavender;
     clear: both;
     border-radius: 25px;
-    border: 4px dotted rgb(0, 0, 167);
+    border: 4px dotted #ADD8E6;
     left: 370px;
     top: 10px;
 }
@@ -354,7 +360,7 @@ fieldset {
     float: left;
 }
 
-.feedback textarea {
+.message textarea {
     width: 86%;
     resize: none;
 }
@@ -369,7 +375,7 @@ button {
     font-weight: bold;
     border-radius: 25px;
     left: 300px;
-    bottom: 400px;
+    bottom: 510px;
  }
 
  #age {
@@ -394,28 +400,14 @@ button {
      position: relative;
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
-     bottom: 350px;
-     left: 250px;
+     top: 10px;
+     left: 10px;
  }
 
- input:focus, textarea:focus {
-     border: 3px solid springgreen;
- }
  .lex-container2{
      position: relative;
      left: 200px;
      border: #000 solid 1px;
- }
- h5{
-     text-align: center;
-     font-size: 20px;
-     padding-right: 40px;
- }
- #rate{
-     justify-content: center;
-     position: relative;
-     left: 200px;
-
  }
 
 #error {
