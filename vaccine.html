@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">  
+    <script defer src="./js/vt.js"></script>
   </head>
   <body>
 
@@ -32,11 +33,15 @@
     <div class="display-4 text-center">Check When You're Eligible For Your Next Dose!</div>
     <div class="vaccineContainer">
       <div class="covidInput">
+      
         <form>
-             Select your latest vaccination date: <input type="date" name="date">
+          <label for="vaxdate">Select your latest vaccination date: </label>
+          <input type="date" id="date" name="date">
+          <button type="submit">SUBMIT</button>
         </form>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237986CB&ctz=Asia%2FSingapore&showPrint=1&showTabs=1&src=ZWpmNjc2ZHMwcTF0YmcyNDlwMGkwa2ZiODhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB"
-             title = "Calandar" style="border:solid 1px #777" width="1000" height="400" frameborder="0" scrolling="no"></iframe>
+
+            <!--<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237986CB&ctz=Asia%2FSingapore&showPrint=1&showTabs=1&src=ZWpmNjc2ZHMwcTF0YmcyNDlwMGkwa2ZiODhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB"
+             title = "Calandar" style="border:solid 1px #777" width="1000" height="400" frameborder="0" scrolling="no"></iframe>-->
         </select>
       </div>
      <!-- <hr class="mySeparator">-->
