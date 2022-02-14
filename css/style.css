@@ -321,6 +321,15 @@ header ul li a:hover{
     top: 35px;
 }
 
+#submit{
+    position: relative;
+    height: 90px;
+    width: 140px;
+    top: 300px;
+    margin-right: 486px;
+    background-color: pink;
+}
+
 /*Styling for Home*/
 h1{
     text-align: center;
