@@ -5,7 +5,7 @@ ID Assignment 2 with Daryl
 # COVID-19 Pastaway
 
 
-Our project is about teaching people about COVID-19. Since COVID-19 has been around for 2 years, the rules that we have to follow have also been constantly changing, so we decided that we will do a game/quiz relating to COVID-19 to teach people what we should do during these times (such as maintaining a 1M spacing between one another) and what we should not do (such as removing our mask when we are not eating/drinking). This will also help those who do not follow the news that much, as it will show them what rules have changed (number of people that can go out) and also educate them on what to do.
+Our project is about teaching people about COVID-19. Since COVID-19 has been around for 2 years, the rules that we have to follow have also been constantly changing, so we decided that we will do a informatic-style website to COVID-19 to teach people what we should do during these times (such as maintaining a 1M spacing between one another) and what we should not do (such as removing our mask when we are not eating/drinking). This will also help those who do not follow the news that much, as it will show them what rules have changed (number of people that can go out) and also educate them on what to do.
 
 
 
@@ -36,6 +36,8 @@ JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript/ We had to us
 # Credits
 Thanks Mrs Ong for guiding us through this project, 
 Muhammad for his hover button code based on assignment 1,
+Daryl for his contact form based on assignment 1,
+https://rapidapi.com/api-sports/api/covid-193/ for the free use of Covid API
 www.w3schools.com/ whenever we had issues understanding some javascript code and how to imlement it, 
 www.youtube.com/ for whenver we could not visualize the concepts that are being taught, 
 https://fontawesome.com/ for the cool icons
