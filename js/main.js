@@ -41,11 +41,11 @@ async function getLatestCOVID19Data()
     await fetch("https://covid-193.p.rapidapi.com/statistics", {
         "method": "GET",
         "headers": {
-            "x-rapidapi-host": "covid-193.p.rapidapi.com",
+            "x-rapidapi-host": "covid-193.p.rapidapi.com",  
             "x-rapidapi-key": MY_API_KEY
         }
     })
-    .then(response => response.json())
+    .then(response => response.json())  //converts it into json format
     .then(response => {
         console.log("COVID 19 API object:");
         console.log(response);
