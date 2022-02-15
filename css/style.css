@@ -1,3 +1,4 @@
+/* importing of font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 
@@ -11,6 +12,8 @@
     text-transform: capitalize;
 }
 
+
+/* this will act as a background for the preloader */
  .loader{
     position: fixed;
     top: 0;
@@ -22,9 +25,12 @@
     justify-content: center;
     align-items: center;
 }
+
+/* a fadeout animation for .loader  */
 .disappear{
     animation: fadeout 5s forwards;
 }
+/* keyframes is used for animation which wil be linked to a js script */
 @keyframes fadeout {
     100%{
         opacity: 0;
@@ -41,6 +47,8 @@ body {
   overflow-x: hidden;
 }
 
+
+/* line 51 -61 is for designing of the scrollbar for the whole site. */
 html::-webkit-scrollbar{
     width:1.3rem;
 }
@@ -102,6 +110,8 @@ header ul li a{
     border-radius: 20px;
 }
 
+
+/* hover animation for when user  mouse over the words*/
 header ul li a:hover{
     background: whitesmoke; /*sets background colour*/
     box-shadow: 0 0 5px #191970, 0 0 20px #191970, 0 0 40px #191970;
@@ -241,6 +251,8 @@ header ul li a:hover{
     padding: .5rem 0;
 }
 
+
+
 .about .learnbtn span {
     position: relative;
     display: inline-block;
@@ -255,6 +267,8 @@ header ul li a:hover{
     text-decoration: none;
     overflow: hidden;
   }
+
+  /* hover animation for button */
   .about .learnbtn span:hover {
     background: #191970; /*sets background colour*/
     box-shadow: 0 0 5px whitesmoke, 0 0 20px #191970, 0 0 40px #191970;
@@ -293,6 +307,8 @@ header ul li a:hover{
     background-color: black;
 }
 
+
+/* styling for the dashboard */
 .embed-container {
     position: relative; padding-bottom: 80%; height: 0; max-width: 100%;
 } 
