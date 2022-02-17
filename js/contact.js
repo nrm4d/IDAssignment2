@@ -3,7 +3,7 @@ const firstname = document.getElementById('firstname')
 const lastname = document.getElementById('lastname')
 const email = document.getElementById('email')
 const phone = document.getElementById('phone')
-const feedback = document.getElementById('feedback')
+const message = document.getElementById('message')
 const errorElement = document.getElementById('error')
 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -27,10 +27,6 @@ form.addEventListener('submit', (e) => {
 
     if (phone.value == " " || phone.value.length < 8 || phone.value.length >= 9) {
         messages.push('Phone number must be 8 numbers')
-    }
-
-    if (feedback.value == " " || feedback.value.length <= 30) {
-        messages.push('More feedback is needed :)')
     }
 
 
