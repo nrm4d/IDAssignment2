@@ -1,5 +1,5 @@
 # IDAssignment2
-ID Assignment 2 with Daryl
+Link to our website: https://nrm4d.github.io/IDAssignment2/
 
 
 # COVID-19 Pastaway
