@@ -2,6 +2,9 @@
 Link to our website: https://nrm4d.github.io/IDAssignment2/
 
 
+Link to our video demo: https://drive.google.com/file/d/1j3ZjfSGC0GWj9Xetjur1vw-D8iLNJSXs/view?usp=sharing
+
+
 # COVID-19 Pastaway
 
 
