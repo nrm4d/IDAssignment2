@@ -21,8 +21,11 @@ Our process when it comes to designing this website is firstly, how would we as 
 
 Existing Features
 Covid Dashboard - It allows users to get up to date statistics of covid cases around the world in real time
+
 Covid Tracker - It allows users to view Covid-19 data for specific countries
+
 Vaccination Tracker - It allows users to find out when their next eligible date for their next dose is.
+
 Contact Form - It allows users to enter their personal details for us to contact them.
 
 
