@@ -1,7 +1,6 @@
 $(document).ready(function () {
 var choosedate= "";
 $("#nextdate").on("click", function(e){
-  console.log("hi");
     e.preventDefault();
     myfunction();
   })
